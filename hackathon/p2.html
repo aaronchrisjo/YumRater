@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Devi's Tea Stall</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- <a href="#" style="display: inline-block; margin-right: 10px"
+      ><img src="search-logo.png" alt="Search Logo"
+    /></a> -->
+    <div class="flex flex-col gap-8 p-64 pt-12">
+      <h1 class="font-bold text-5xl">Devi's Tea Stall</h1>
+      <div class="flex justify-start items-center gap-[20px]">
+        <button class="py-[20px] px-[40px] bg-green-500 rounded-lg text-white font-bold text-3xl border-green-600 hover:bg-green-600 active:bg-green-700">Like</button> 
+        <button class="py-[20px] px-[40px] bg-red-500 rounded-lg text-white font-bold text-3xl border-red-600 hover:bg-red-600 active:bg-red-700">Dislike</button>
+      </div>
+      <div class="p-6 border border-black text-3xl rounded-lg w-full h-4/12">
+        Recent Reviews for DTS
+        <div class="w-max text-sm flex flex-col gap-2 p-4">
+          <p class="bg-green-500 text-white px-8 py-3 rounded-md">I am gay</p>
+          <p class="bg-red-500 text-white px-8 py-3 rounded-md">I am not gay</p>
+          <p class="bg-green-500 text-white px-8 py-3 rounded-md">I am really GAY!</p>
+          <p class="bg-red-500 text-white px-8 py-3 rounded-md">I am little gay only hehe</p>
+        </div>
+      </div>
+      <div>
+        <div class="w-full h-8/12 border border-black rounded-lg p-6 flex justify-start items-start flex-col gap-4">
+          <p class="text-4xl font-bold">Write your Reviews</p>
+          <form action="p2.php" method="POST">
+            <textarea class="block p-2.5 w-full rounded-lg border border-neutral-400" type="text" name="recent_reviews" id="recent_reviews" rows="4" placeholder="Write your review here..."></textarea>
+            <button class="py-3 px-8 bg-blue-500 rounded-lg text-white text-2xl border-blue-600 hover:bg-blue-600 active:bg-blue-700">Submit</button>
+          </form>
+        </div>  
+      </div>
+    <div>
+  </body>
+</html>
